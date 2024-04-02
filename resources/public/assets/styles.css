@@ -1,0 +1,34 @@
+td {
+  min-width: 100px;
+}
+
+.column-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.column-name:hover {
+  background-color: #f0f0f0;
+}
+
+.btn-new-row {
+  margin-right: 10px;
+}
+
+.cell {
+  height: 30px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.th {
+  width: 150px;
+}
+
+.btn-delete {
+  display: flex;
+  align-items: center;
+}

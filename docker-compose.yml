@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    restart: always
+    ports:
+      - 8080:4200
